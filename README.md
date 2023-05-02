@@ -3,12 +3,12 @@
 
 <div align="center">
 
-  <img src="./src/images/RHK Trading Logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/RHK Trading Logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-  <h3><b>To do List Project</b></h3>
+  <h3><b>To do List React Project</b></h3>
 </div>
 
-<h1>Capstone Project Module-1</h1>
+<h1>Capstone Project Module-3</h1>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To Do List <a name="about-project"></a>
+# 📖 To Do List React<a name="about-project"></a>
 
-"To Do List" is a simple website that create a do List to check everyday task and remove what have been completed
+"To Do List React" is a simple website that create a do List to check everyday task and remove what have been completed implemented in React Framework.
 
 
 <!-- > Describe your project in 1 or 2 sentences. -->
