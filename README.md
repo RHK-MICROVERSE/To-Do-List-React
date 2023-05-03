@@ -139,16 +139,16 @@ To Do List: mobile-first approach & responsive on desktop version and bigger siz
 <!-- > Describe between 1-3 key features of the application. -->
 - Mobile First Approach
 - Responsive Website
-- Button Interactions (i.e. hover, etc.)
-- Attractive Images & Design
-- Modal/dialog
+- User can Edit the item of the To Do list
+- User can Delete the item once the Task has been done
+- User Can Add new Task
 - Dynamic page (data is retrieved from JSON file)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Live Demo Link](https://github.com/RHK-MICROVERSE/todolistreact/issues)
+[Live Demo Link](https://todoinreact.vercel.app/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
