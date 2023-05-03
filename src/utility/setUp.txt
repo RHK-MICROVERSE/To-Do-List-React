@@ -1,0 +1,133 @@
+
+1.	Creating a new project in react:
+create a new repository in small letters without any 
+gaps like "todolistreact". Import the whole repository in 
+local pc and then create a branch and use the following command:
+npx create-react-app .
+2.	It will show ERROR when will run npm start. Please remove the following one by one
+From App.js Remove the following codes:
+at the top of the App.js file remove the following two lines
+import logo from './logo.svg';
+import './App.css';
+
+inside the return after inside the div please remove the following lines: 
+
+<header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+From index.html inside the Public folder please remove the following lines:
+
+import reportWebVitals from './reportWebVitals';
+reportWebVitals();
+
+Delete the following unnecessary files:
+App.test.js
+logo.svg
+reportWebVital.js
+setupTests.js
+
+
+3.	Installing different dependencies so that can be converted for rendering through bable:
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+
+This will add the followings inside the package.jason under the  "devDependencies": {
+    	"@babel/core": "^7.21.4",
+    	"@babel/eslint-parser": "^7.21.3",
+    	"@babel/plugin-syntax-jsx": "^7.21.4",
+    	"@babel/preset-react": "^7.18.6",
+    	"stylelint-config-standard": "^21.0.0",
+    	"stylelint-csstree-validator": "^1.9.0",
+    	"stylelint-scss": "^3.21.0"
+4.	Run the following command:
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+5.	Add the following line inside the App.js and run npm start it will show the line in the browser without any error:
+<h1>Helllo Rassel</h1>
+
+6.	Installing eslint-plugin-import. This plugin intends to support linting of ES2015+ (ES6+) import/export syntax, and prevent issues with misspelling of file paths and import names:
+npm i eslint-plugin-import
+This will add the followings inside the package.jason under the  "devDependencies": {
+"eslint-plugin-import": "^2.27.5",
+
+7.	Installing eslint-plugin-jsx-a11y. 
+npm i eslint-plugin-jsx-a11y
+This will add the followings inside the package.jason under the  "devDependencies": {
+	"eslint-plugin-jsx-a11y": "^6.7.1",
+
+8.	Install npm i eslint-plugin-react
+npm i eslint-plugin-react
+This will add the followings inside the package.jason under the  
+"devDependencies": {
+"eslint-plugin-react": "^7.32.2",
+
+9.	Install eslint-plugin-react-hooks
+npm i eslint-plugin-react-hooks
+"devDependencies": {
+	"eslint-plugin-react-hooks": "^4.6.0",
+
+10.	To install the gh-page run the following command in local repo:
+npm install gh-pages --save-dev
+It will create the followings:
+"devDependencies": {
+	"gh-pages": "^5.0.0",
+
+11.	Install the babel as follows:
+npm install --save-dev @babel/plugin-transform-modules-commonjs
+
+The .babelrc should look like as follows:
+{
+  "env": {
+    "test": {
+        "presets": [
+    "@babel/preset-react",
+    "@babel/preset-env"
+    ],
+      "plugins": [
+        "@babel/plugin-transform-modules-commonjs",
+        "@babel/plugin-syntax-jsx"
+      ]
+    }
+  }
+}
+
+12.	Edited eslinrc.json adding following lines: 
+"rules": {
+    "no-unused-vars": "off",
+
+13.	Run all liner error command
+
+14. What ever new installation done must run npm install to rebuild
+
+15. To install react icons: npm install react-icons
+  "react-icons": "^4.8.0", for both dev-dependecy and dependecy
+
+16. Install  npm install @typescript-eslint/parser to avoid parsing error
+  "extends": ["airbnb-base",
+              "eslint:recommended",
+              "plugin:vue/vue3-essential"
+            ],
+
+17. Install  npm install eslint-plugin-vue@latest --save-dev to avoid parsing error
+  "extends": ["airbnb-base",
+              "eslint:recommended",
+              "plugin:vue/vue3-essential"],
+
+18. Install npm install uuidv4
+
+19. Install React virtual dom : npm install react-router-dom@6
+    npm i -S react-router-dom  
+    dependency: {"react-dom": "^18.2.0",}
+
+20. Install React route: npm install react-router-dom@6
+
+
